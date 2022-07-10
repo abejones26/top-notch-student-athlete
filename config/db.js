@@ -6,8 +6,9 @@ const connectDB = async () => {
   try {
     await mongoose.connect(db, {
       useNewUrlParser: true,
-      useCreateIndex: true,
-      useFindAndModify: false,
+      // On Mongoose 6.0 useNewUrlParser, useUnifiedTopology, useFindAndModify, and useCreateIndex are always true and .useFindAndModify is false. No need to use on your code.
+      // useCreateIndex: true,
+      // useFindAndModify: false,
       useUnifiedTopology: true,
     });
 

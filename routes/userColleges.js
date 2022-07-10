@@ -28,5 +28,5 @@ router.put('/:id', (req, res) => {
 router.delete('/:id', (req, res) => {
   res.send('Delete college');
 });
-mongo;
+
 module.exports = router;
