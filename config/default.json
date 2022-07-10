@@ -1,3 +1,4 @@
 {
-    "mongoURI": "mongodb+srv://admin2:PL5JHRiGNe3qNdt4@topnotch2.oxbn52l.mongodb.net/?retryWrites=true&w=majority"
+    "mongoURI": "mongodb+srv://admin2:PL5JHRiGNe3qNdt4@topnotch2.oxbn52l.mongodb.net/?retryWrites=true&w=majority",
+    "jwtSecret": "secret"
 }
